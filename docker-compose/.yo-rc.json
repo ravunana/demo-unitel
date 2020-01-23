@@ -1,0 +1,18 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "estoque",
+      "facturacao",
+      "gateway",
+      "uaa"
+    ],
+    "directoryPath": "../",
+    "gatewayType": "zuul",
+    "monitoring": "elk",
+    "consoleOptions": [
+      "curator"
+    ],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "ZjE3MzY1NDE2ZDhhMzYzMzRhYjQ2N2FkMjdiZDJlNjczY2MwNzhiZWU0MzZkYmYwYWUzNGYyZDQ1MDQyYzVhY2FjMGJiYWVlNDkzNzJhNjhkODgzYmZlZWI5Njc1NTFiNDc4OQ=="
+  }
+}

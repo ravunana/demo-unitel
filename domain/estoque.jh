@@ -1,0 +1,12 @@
+entity Produto {
+    nome String required,
+    numero String unique,
+    estoque Integer required min(1),
+    preco Double required min(0)
+}
+
+dto * with mapstruct
+microservice * with estoque
+paginate * with infinite-scroll
+search * with elasticsearch
+service * with serviceImpl

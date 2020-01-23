@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ravunana",
+      "nativeLanguage": "pt-pt"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "estoque",
+    "packageName": "com.ravunana",
+    "packageFolder": "com/ravunana",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTUwZmU2Y2E2ZWY5ODliZDgzNmRhY2VhNDZjN2U0MDgzMjc5ZmY3MmMwMzgzYTk3MDQ2MDZkMGFjY2NkYzIwMjE1ZjQ5MmNkMGM5MzViMTE4NDQyZjk3NDQ5NGUxODhiNzA0ZDI5ODc1ZGMzYWIxZWFiYzUwNGNkZThmOTY2OGY=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "pt-pt",
+    "languages": [
+      "pt-pt"
+    ],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

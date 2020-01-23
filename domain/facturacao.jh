@@ -1,0 +1,21 @@
+
+enum Tipo { COMPRA, VENDA }
+
+entity Factura {
+    tipo Tipo required,
+    beneficiario String required
+    data ZonedDateTime,
+    numero String unique,
+
+    produtoCodigo String required,
+    produtoNome String required,
+    produtoPreco Double required min(0),
+    produtoQuantidade Integer required min(1)
+}
+
+
+dto * with mapstruct
+microservice * with facturacao
+paginate * with infinite-scroll
+search * with elasticsearch
+service * with serviceImpl

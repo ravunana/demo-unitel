@@ -1,0 +1,55 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="factura">
+            <h2><span jhiTranslate="gatewayApp.facturacaoFactura.detail.title">Factura</span> {{factura.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.tipo">Tipo</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'gatewayApp.Tipo.' + factura.tipo}}">{{factura.tipo}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.beneficiario">Beneficiario</span></dt>
+                <dd>
+                    <span>{{factura.beneficiario}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.data">Data</span></dt>
+                <dd>
+                    <span>{{factura.data}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.numero">Numero</span></dt>
+                <dd>
+                    <span>{{factura.numero}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.produtoCodigo">Produto Codigo</span></dt>
+                <dd>
+                    <span>{{factura.produtoCodigo}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.produtoNome">Produto Nome</span></dt>
+                <dd>
+                    <span>{{factura.produtoNome}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.produtoPreco">Produto Preco</span></dt>
+                <dd>
+                    <span>{{factura.produtoPreco}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.facturacaoFactura.produtoQuantidade">Produto Quantidade</span></dt>
+                <dd>
+                    <span>{{factura.produtoQuantidade}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/factura', factura.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ravunana",
+      "nativeLanguage": "pt-pt"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "facturacao",
+    "packageName": "com.ravunana",
+    "packageFolder": "com/ravunana",
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODNmNmI3YTY1NTkwMmJmYzY2YzQ3Y2E2ZWQ4ZGI4YzczMmQ1OTc3YWRkOGU1NDEyZGExYzY1YjA3NDhkYjFmNzc5YzQxNTQ1MDBiMjhhMGEzNzNmNGU1MjAwZDljNDA1NTZlNTMwMzlmZjdmYzJiZjE0MzczY2FkNDMwMjMyZTY=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "pt-pt",
+    "languages": [
+      "pt-pt"
+    ],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

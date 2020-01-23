@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "Tipo": {
+      "null": "",
+      "COMPRA": "COMPRA",
+      "VENDA": "VENDA"
+    }
+  }
+}

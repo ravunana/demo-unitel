@@ -1,0 +1,11 @@
+version: '2'
+services:
+  estoque-postgresql:
+    image: postgres:11.5
+    # volumes:
+    #     - ~/volumes/jhipster/estoque/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=estoque
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

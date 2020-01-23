@@ -1,0 +1,34 @@
+{
+  "gatewayApp": {
+    "facturacaoFactura": {
+      "home": {
+        "title": "Facturas",
+        "createLabel": "Criar novo(a) Factura",
+        "createOrEditLabel": "Criar ou editar Factura",
+        "search": "Procurar por Factura",
+        "notFound": "Nenhum Facturas encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Factura {{ id }}?"
+      },
+      "detail": {
+        "title": "Factura"
+      },
+      "tipo": "Tipo",
+      "beneficiario": "Beneficiario",
+      "data": "Data",
+      "numero": "Numero",
+      "produtoCodigo": "Produto Codigo",
+      "produtoNome": "Produto Nome",
+      "produtoPreco": "Produto Preco",
+      "produtoQuantidade": "Produto Quantidade"
+    }
+  },
+  "facturacaoApp": {
+    "facturacaoFactura": {
+      "created": "Um novo Factura foi criado com o identificador {{ param }}",
+      "updated": "Factura com identificador {{ param }} foi actualizado",
+      "deleted": "Factura com identificador {{ param }} foi eliminado"
+    }
+  }
+}

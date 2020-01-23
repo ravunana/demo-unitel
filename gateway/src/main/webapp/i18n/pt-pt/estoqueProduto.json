@@ -1,0 +1,30 @@
+{
+  "gatewayApp": {
+    "estoqueProduto": {
+      "home": {
+        "title": "Produtos",
+        "createLabel": "Criar novo(a) Produto",
+        "createOrEditLabel": "Criar ou editar Produto",
+        "search": "Procurar por Produto",
+        "notFound": "Nenhum Produtos encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Produto {{ id }}?"
+      },
+      "detail": {
+        "title": "Produto"
+      },
+      "nome": "Nome",
+      "numero": "Numero",
+      "estoque": "Estoque",
+      "preco": "Preco"
+    }
+  },
+  "estoqueApp": {
+    "estoqueProduto": {
+      "created": "Um novo Produto foi criado com o identificador {{ param }}",
+      "updated": "Produto com identificador {{ param }} foi actualizado",
+      "deleted": "Produto com identificador {{ param }} foi eliminado"
+    }
+  }
+}

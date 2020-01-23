@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ravunana",
+      "nativeLanguage": "pt-pt"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.ravunana",
+    "packageFolder": "com/ravunana",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWNkMWFmNGQzMDdkYTBlY2E2Mzk5Njg4YTM3MTMyMGNiZmQ1ZTYwOTAzMzFmYTNlZWUzZWI2MGIwMGFmOTMwYTMyNjA3ZjMzZDIyZjI1NGMwNTZiMjhlODUxNmQ5Y2ZiYzk3ZjY5YTAzMTBjZDM2NTMwNTVkNGUzMWI5ODEzMmE=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "pt-pt",
+    "languages": [
+      "pt-pt"
+    ],
+    "blueprints": [],
+    "skipClient": true
+  }
+}
